@@ -1,0 +1,8 @@
+
+	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¿ßùÚõ1J$97d29549-312b-4aef-92e4-d3a75cb4162e
+q
+java:S1121".Extract the assignment out of this expression.(Ã“áÂ8ÇßùÚõ1J$e9c4488d-370d-44c3-bd9c-b1c212c17b31
+Ü
+java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(âØ¡®8¹àùÚõ1J$00a265b5-17de-4489-8686-743fc550ba32
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(Œ›Éô8´ÇúÚõ1

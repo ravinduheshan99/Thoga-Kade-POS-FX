@@ -1,0 +1,11 @@
+
+	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8υ¨ΕΫυ1J$80362ede-7919-465d-a183-867311f1d3e0
+	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8φ¨ΕΫυ1J$1e385f0f-2ff8-4530-bf04-51b451ccde3e
+	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8φ¨ΕΫυ1J$be7f3794-a0f7-4e9a-a38a-338fa3e7788b
+q
+java:S1121".Extract the assignment out of this expression.(©µΐ8φ¨ΕΫυ1J$ab9c7dc8-efe7-4300-a110-827dd5e6663d
+	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Λέ…ψÿÿÿÿ8χ¨ΕΫυ1J$2b7405e1-9c71-4459-b738-718e616da560
+ά
+java:S6548"A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Μ½ΝÒ8©ΕΫυ1J$ed32af50-8452-4dea-b7bd-91ac88b95add
+^
+java:S1126G"AReplace this if-then-else statement by a single return statement.(‰ν©‰8·©ΗΫυ1

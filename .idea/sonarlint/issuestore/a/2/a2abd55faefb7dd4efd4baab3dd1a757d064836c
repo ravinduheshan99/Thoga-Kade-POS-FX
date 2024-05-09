@@ -1,0 +1,88 @@
+
+	java:S112À"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µü§ßõ1J$11c80009-1dc4-40b1-abdb-3c23c6578687
+w
+java:S3740"/Provide the parametrized type for this generic.(íü«±ıÿÿÿÿ8©üñÀó1J$79825fb3-f9c0-4cea-b644-308928e6cf01
+r
+java:S3740 "/Provide the parametrized type for this generic.(Û£ŠŞ8ªüñÀó1J$2b82ab9e-7ecf-4717-8c3d-99b0dbaba1cf
+w
+java:S3740!"/Provide the parametrized type for this generic.(–¤Ã¹ûÿÿÿÿ8ªüñÀó1J$a1264e5d-8ce1-4945-9dc0-afe826ea4d87
+q
+java:S3740""/Provide the parametrized type for this generic.(™—E8ªüñÀó1J$ca6e699e-67dd-4093-9476-be7f10931d8b
+w
+java:S3740#"/Provide the parametrized type for this generic.(¢Áæüûÿÿÿÿ8ªüñÀó1J$e0d321fb-0aa2-40d5-b7a9-53989d063cd6
+r
+java:S3740$"/Provide the parametrized type for this generic.(§³¸İ8ªüñÀó1J$8ebf09e3-99a4-4305-bbe4-a4f01a4b8f8d
+w
+java:S3740%"/Provide the parametrized type for this generic.(üØÆßøÿÿÿÿ8ªüñÀó1J$ab53e927-457b-4f4f-a284-9466617e6582
+r
+java:S3740&"/Provide the parametrized type for this generic.(Ù³ı»8«üñÀó1J$3c44ee34-c747-413c-90be-3f4f35f75b26
+r
+java:S3740'"/Provide the parametrized type for this generic.(¨«ÏÔ8«üñÀó1J$f8e86833-372f-4057-ad39-1682d0271100
+r
+java:S3740("/Provide the parametrized type for this generic.(¹à˜£8«üñÀó1J$17ff0ce0-0617-439d-b1dd-110bbff28f66
+w
+java:S3740)"/Provide the parametrized type for this generic.(Ùúšäÿÿÿÿÿ8«üñÀó1J$a1a9d848-6bd6-4ce4-92b3-2c212f96e9f4
+r
+java:S3740*"/Provide the parametrized type for this generic.(®ôš¢8«üñÀó1J$975416e6-405e-4042-b6f8-4dcced716489
+r
+java:S3740+"/Provide the parametrized type for this generic.(Î‡şò8«üñÀó1J$55309c30-5cce-4a05-8cec-d5cd85a79b0e
+•
+java:S1104"RMake txtCid a static final constant or non-public and provide accessors if needed.(Ã©Ö8¯üñÀó1J$4106d5b0-5de1-49ef-b7f1-7504a9cfba2a
+œ
+java:S1104"TMake cmbTitle a static final constant or non-public and provide accessors if needed.(íü«±ıÿÿÿÿ8¯üñÀó1J$e8d6554d-220f-4263-a7ec-4b37899b9f27
+œ
+java:S1104"TMake txtCname a static final constant or non-public and provide accessors if needed.(æÃÍãÿÿÿÿÿ8°üñÀó1J$d2f59c6d-b489-4a07-81d2-7b466016424e
+š
+java:S1104"RMake txtSal a static final constant or non-public and provide accessors if needed.(¯İïüşÿÿÿÿ8°üñÀó1J$43fb4163-8b39-45a0-8e45-df80a8d9edb1
+›
+java:S1104"SMake dateDob a static final constant or non-public and provide accessors if needed.(â×Óİşÿÿÿÿ8°üñÀó1J$56a7af26-b7b8-4857-9045-076fc2828a5c
+•
+java:S1104"SMake txtAdrs a static final constant or non-public and provide accessors if needed.(“òü8°üñÀó1J$19caedb6-526c-4c5e-88d3-e7659fbee15f
+–
+java:S1104"SMake txtCity a static final constant or non-public and provide accessors if needed.(Õ•÷8°üñÀó1J$64e8afa7-67f1-4f0e-83d0-4750b0cee0ec
+š
+java:S1104"WMake txtProvince a static final constant or non-public and provide accessors if needed.(€×¡î8°üñÀó1J$052e36dd-38a4-4d19-8d77-b68a78b4ebad
+¡
+java:S1104"YMake txtPostalCode a static final constant or non-public and provide accessors if needed.(ø®ô”ùÿÿÿÿ8°üñÀó1J$2960e17b-3142-49ee-a059-6526189fe1ea
+—
+java:S1104 "TMake tblCus01 a static final constant or non-public and provide accessors if needed.(Û£ŠŞ8°üñÀó1J$e8b99190-20bd-4b6d-a1b2-b11c49dc5149
+œ
+java:S1104!"TMake colCid01 a static final constant or non-public and provide accessors if needed.(–¤Ã¹ûÿÿÿÿ8±üñÀó1J$c16134eb-47ae-49b7-a0e1-6f78112a0bc8
+–
+java:S1104""TMake colTitle a static final constant or non-public and provide accessors if needed.(™—E8±üñÀó1J$82fcc3a8-0483-4fc0-b7c6-bbfa4c6d6347
+œ
+java:S1104#"TMake colCname a static final constant or non-public and provide accessors if needed.(¢Áæüûÿÿÿÿ8±üñÀó1J$49007380-7a0f-48f2-b29f-5539ef639204
+•
+java:S1104$"RMake colDob a static final constant or non-public and provide accessors if needed.(§³¸İ8±üñÀó1J$8f001c25-70ef-407e-9858-4c4d8026ebe6
+š
+java:S1104%"RMake colSal a static final constant or non-public and provide accessors if needed.(üØÆßøÿÿÿÿ8±üñÀó1J$bec038eb-debc-46ef-b8a9-91a48fa162a5
+—
+java:S1104&"TMake tblCus02 a static final constant or non-public and provide accessors if needed.(Ù³ı»8±üñÀó1J$0496ea23-349b-4208-987b-1566bdbee745
+—
+java:S1104'"TMake colCid02 a static final constant or non-public and provide accessors if needed.(¨«ÏÔ8±üñÀó1J$6c49bb33-e033-40ae-ace8-2cb89c05b1b5
+–
+java:S1104("SMake colAdrs a static final constant or non-public and provide accessors if needed.(¹à˜£8±üñÀó1J$e535961e-f41e-41cd-a4a5-950ef795d6b4
+›
+java:S1104)"SMake colCity a static final constant or non-public and provide accessors if needed.(Ùúšäÿÿÿÿÿ8±üñÀó1J$9be71ed5-e253-488c-ae8c-175023ce39bd
+š
+java:S1104*"WMake colProvince a static final constant or non-public and provide accessors if needed.(®ôš¢8±üñÀó1J$f8113128-4638-4266-8614-c9f2a217e929
+œ
+java:S1104+"YMake colPostalcode a static final constant or non-public and provide accessors if needed.(Î‡şò8±üñÀó1J$e41d0fcc-98e4-4830-a15c-321fc6c35e7d
+¤
+java:S1104,"\Make btnPlaceOrderNav a static final constant or non-public and provide accessors if needed.(Á÷ÄÛùÿÿÿÿ8ïÆßõ1J$4c731a4b-623f-4579-bb36-accafdfb068e
+³
+java:S1130u"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(š¯.8£‘Áó1J$48575b48-68bd-4f6f-9632-4d74fcee6f61
+t
+java:S1172u"2Remove this unused method parameter "actionEvent".(š¯.8¤‘Áó1J$e12ae231-e9cb-4662-985d-f6447d181a27
+{
+java:S1172„"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8«‘Áó1J$a1bc75a2-0471-47e7-808c-3f9ca87731f2
+v
+java:S1172“"2Remove this unused method parameter "actionEvent".(áÄ´ü8¯‘Áó1J$903342ec-755a-448d-8cb6-f45f0cb27ce8
+v
+java:S1172¥"2Remove this unused method parameter "actionEvent".(Œ“‘8´‘Áó1J$9f269bcb-cc7b-4865-a5c2-29008326e859
+v
+java:S1172³"2Remove this unused method parameter "actionEvent".(•Ğ€½8Ì°ÇÁó1J$a6b8b97e-8e31-4170-abfd-a6fef0a37803
+v
+java:S1172·"2Remove this unused method parameter "actionEvent".(‡Ø±©8•õ¦ßõ1J$61f6e67d-041e-423b-88d5-4cd128d67e3c
+v
+java:S1172Ä"2Remove this unused method parameter "actionEvent".(åØû¥8áş§ßõ1J$8f5950aa-6a59-42eb-b691-445ca1199fbf

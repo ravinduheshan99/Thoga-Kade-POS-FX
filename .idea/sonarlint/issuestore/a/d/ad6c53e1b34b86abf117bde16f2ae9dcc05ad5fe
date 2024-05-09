@@ -1,0 +1,99 @@
+
+	java:S112ª"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8³°Ίδυ1J$fd8f6260-c233-49e0-bf70-5fc95e1b5e80
+	java:S112ά"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8¶°Ίδυ1J$2ba9caa3-80d5-478d-b05a-902876071130
+	java:S112κ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8·°Ίδυ1J$84ebc74f-d5b7-4660-ab43-cc0dc0ce845c
+	java:S112±"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8·°Ίδυ1J$789bda74-5369-4278-a72b-8e2f5ad3c349
+q
+java:S37402"/Provide the parametrized type for this generic.(χθK8Ή°Ίδυ1J$776fbec8-656a-42c1-afdd-0a9f22c9b2f3
+r
+java:S37408"/Provide the parametrized type for this generic.(π©®8Ή°Ίδυ1J$9c167a3d-26f2-4f50-a509-a8461cf89466
+r
+java:S3740="/Provide the parametrized type for this generic.(ήβκ8Ή°Ίδυ1J$efebecda-c749-468a-9ba2-68c98b9f5ac0
+w
+java:S3740>"/Provide the parametrized type for this generic.(‘›‡ώÿÿÿÿ8Ή°Ίδυ1J$4ec5bbf8-9402-4117-b15a-3ca60e36af7b
+w
+java:S3740?"/Provide the parametrized type for this generic.(ψΈ³³ύÿÿÿÿ8Ή°Ίδυ1J$c5f0184e-d0c1-4937-bb09-f0d986a7c07d
+w
+java:S3740@"/Provide the parametrized type for this generic.(‰εΎ…ϊÿÿÿÿ8Ή°Ίδυ1J$60df6eeb-b0de-4b4f-9423-edc82c9f1494
+r
+java:S3740A"/Provide the parametrized type for this generic.(Υ…Όν8Ή°Ίδυ1J$4ed1c116-09af-4ac9-981f-87f62312602f
+r
+java:S3740B"/Provide the parametrized type for this generic.(΄ƒ£8Ή°Ίδυ1J$d35f1605-b001-465a-a6e8-c733f84e4539
+’	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―άφ8Γ°Ίδυ1J$aaf2b3bd-37b3-4d63-a2e9-362b859ad1d9
+	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ϊΑΏύÿÿÿÿ8Γ°Ίδυ1J$cdb84136-063c-4973-9eb9-4fe24fc92c94
+›
+java:S11040"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“ΐ„ÿÿÿÿÿ8Λ°Ίδυ1J$43c45035-feda-4a8c-b563-6e0cdbce591a
+–
+java:S11041"SMake lblTime a static final constant or non-public and provide accessors if needed.(Ώ°Χ•8Μ°Ίδυ1J$60f96d39-8b73-408f-9b3c-e748d924b9b1
+”
+java:S11042"RMake cmbCid a static final constant or non-public and provide accessors if needed.(χθK8Μ°Ίδυ1J$cb92047a-e4be-4724-a012-372ed7819fa5
+
+java:S11043"TMake txtCname a static final constant or non-public and provide accessors if needed.(ζΓΝγÿÿÿÿÿ8Μ°Ίδυ1J$8aa7761c-9754-4c8f-9ecd-2b7fbf41e2ee
+•
+java:S11044"SMake txtAdrs a static final constant or non-public and provide accessors if needed.(“ςό8Μ°Ίδυ1J$842976ed-fa4c-41ee-a041-7cd5543d83b0
+
+java:S11045"RMake txtSal a static final constant or non-public and provide accessors if needed.(―έοόώÿÿÿÿ8Μ°Ίδυ1J$b4a27d48-8c0d-4836-b806-37e313e02d24
+–
+java:S11046"SMake txtCity a static final constant or non-public and provide accessors if needed.(Υ•χ8Μ°Ίδυ1J$b079f3a1-0ee0-4262-bc9f-ddea36e2ed54
+
+java:S11047"VMake txtItmDesc a static final constant or non-public and provide accessors if needed.(€¤‚68Μ°Ίδυ1J$0028192f-d768-4a2e-9c4c-8efab92238eb
+—
+java:S11048"TMake cmbItmId a static final constant or non-public and provide accessors if needed.(π©®8Μ°Ίδυ1J$098837cd-bb77-47ab-a3f6-5e7575592306
+
+java:S11049"WMake txtPackSize a static final constant or non-public and provide accessors if needed.(Γήόÿÿÿÿ8Μ°Ίδυ1J$81fa8b1d-b7c1-4bf8-8da2-260e0381c189
+ 
+java:S1104:"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›ΧΠωÿÿÿÿ8Μ°Ίδυ1J$3250c6aa-0d2a-4d87-9c4f-f334f0bed177
+
+java:S1104;"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³ψÿÿÿÿ8Μ°Ίδυ1J$b6edccb0-5b5a-4d6d-ac6a-3a0b4a661b1a
+•
+java:S1104<"RMake lblOid a static final constant or non-public and provide accessors if needed.(²χά’8Μ°Ίδυ1J$9c3d4d62-9b77-4e20-9406-10cefd81f046
+–
+java:S1104="SMake tblCart a static final constant or non-public and provide accessors if needed.(ήβκ8Μ°Ίδυ1J$70c4ac92-dfb6-4b14-b956-86e8eb6c7e6d
+
+java:S1104>"VMake colItmCode a static final constant or non-public and provide accessors if needed.(‘›‡ώÿÿÿÿ8Μ°Ίδυ1J$42625c21-3e17-4daf-a717-51050ab883f7
+
+java:S1104?"VMake colItmDesc a static final constant or non-public and provide accessors if needed.(ψΈ³³ύÿÿÿÿ8Μ°Ίδυ1J$a6d81131-444d-4d79-af76-7ce67e111b4a
+
+java:S1104@"RMake colQty a static final constant or non-public and provide accessors if needed.(‰εΎ…ϊÿÿÿÿ8Μ°Ίδυ1J$b2d2930c-0aac-41af-b470-310b5f8bf9b6
+›
+java:S1104A"XMake colUnitPrice a static final constant or non-public and provide accessors if needed.(Υ…Όν8Μ°Ίδυ1J$a005b88b-d806-4b38-a30e-f07dbbacade2
+•
+java:S1104B"RMake colTot a static final constant or non-public and provide accessors if needed.(΄ƒ£8Μ°Ίδυ1J$4a4b70b3-0c05-4605-812b-d9ef4a66c3f9
+
+java:S1104C"VMake txtQtyNeed a static final constant or non-public and provide accessors if needed.(‡·’–ÿÿÿÿÿ8Μ°Ίδυ1J$2f59aec9-9e3a-4e65-b669-798b00f7e4b3
+
+java:S1104D"UMake lblNetTot a static final constant or non-public and provide accessors if needed.(άταϋÿÿÿÿ8Μ°Ίδυ1J$077d91e2-12b7-4095-9e57-8af20987b54d
+™
+java:S1104E"VMake btnBackNav a static final constant or non-public and provide accessors if needed.(ζ±Γ«8Ν°Ίδυ1J$c6b720e9-65b4-4e76-b973-16164d91b220
+q
+java:S5411Υ"(Use a primitive boolean expression here.(γ³”Ξÿÿÿÿÿ8Σ°Ίδυ1J$f7e36428-127d-46cf-8a6a-838858192ecc
+‹
+java:S2095™"GUse try-with-resources or close this "Statement" in a "finally" clause.(ξΓ³Ί8Θ²Ίδυ1J$8d245677-448c-41e3-a526-8117826aef5e
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ι°Αµώÿÿÿÿ8Θ²Ίδυ1J$b983cc75-14ad-4540-b780-9bdc80636450
+t
+java:S1602S",Remove useless curly braces around statement(ρ¦Αύÿÿÿÿ8ς²Ίδυ1J$06d86fc4-0f1d-4fa0-8f1d-257ac619c0c4
+t
+java:S1602W",Remove useless curly braces around statement(Ύλ»ώÿÿÿÿ8τ²Ίδυ1J$2524d96a-1678-44cc-81c5-4e2266e23ce6
+o
+java:S1602o",Remove useless curly braces around statement(½Β‡‡8ύ²Ίδυ1J$6d249d14-62e3-4a4b-a926-67093326e20c
+o
+java:S1602x",Remove useless curly braces around statement(ϋ³ÒΊ8³Ίδυ1J$b95af4cb-29b3-43dc-b08f-039f092da5ad
+n	java:S106“"+Replace this use of System.out by a logger.(Τφ·8“³Ίδυ1J$8c91529a-2691-4627-8dc1-7af9ca425cc4
+{
+java:S1172±"2Remove this unused method parameter "actionEvent".(²ΤΆϊÿÿÿÿ8ª³Ίδυ1J$03a88238-4e17-4897-9d9b-98120fb29a0e
+{
+java:S1172Ε"2Remove this unused method parameter "actionEvent".(—²άπψÿÿÿÿ8―³Ίδυ1J$8e811089-cad9-4293-8bac-8e11a9e79dab
+{
+java:S1172α"2Remove this unused method parameter "actionEvent".(νϋ¦ϊÿÿÿÿ8·³Ίδυ1J$53e38a78-50f3-4084-84d8-321d68459d28
+v
+java:S1172ξ"2Remove this unused method parameter "actionEvent".(άΞ£8Η³Ίδυ1J$39eee286-58c5-4daf-a8d8-e098fb6aa1b0
+ƒ
+java:S1854"?Remove this useless assignment to local variable "reponseCode".(θω·8Τ³Ίδυ1J$74dd2803-a80d-42af-a8a0-82fc539b6754
+{
+java:S1172“"2Remove this unused method parameter "actionEvent".(ΕΘΛ·ώÿÿÿÿ8Ψ³Ίδυ1J$7ab2b53a-ca60-41f7-a0ea-5af777623444
+t
+java:S1481"0Remove this unused "reponseCode" local variable.(θω·8ί³Ίδυ1J$04aef97b-fd3a-4902-b8cf-63aa5e160ac9
+m	java:S106®"+Replace this use of System.out by a logger.(ΡϋηI8―όΊδυ1J$fc301c7a-37c5-4f0d-8af4-4f951a375e45
+~
+java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªΛή8Ν«Ώδυ1J$9ca58c3f-564a-489f-a970-864dd523b6e0
