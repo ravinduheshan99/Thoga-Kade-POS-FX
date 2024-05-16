@@ -1,8 +1,8 @@
 package edu.icet.demo.controller.item;
 
-import edu.icet.demo.crudUtil.CrudUtil;
-import edu.icet.demo.model.Item;
-import edu.icet.demo.model.OrderDetail;
+import edu.icet.demo.util.CrudUtil;
+import edu.icet.demo.dto.Item;
+import edu.icet.demo.dto.OrderDetail;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

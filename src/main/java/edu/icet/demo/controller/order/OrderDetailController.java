@@ -1,7 +1,7 @@
 package edu.icet.demo.controller.order;
 
-import edu.icet.demo.crudUtil.CrudUtil;
-import edu.icet.demo.model.OrderDetail;
+import edu.icet.demo.util.CrudUtil;
+import edu.icet.demo.dto.OrderDetail;
 
 import java.sql.SQLException;
 import java.util.List;

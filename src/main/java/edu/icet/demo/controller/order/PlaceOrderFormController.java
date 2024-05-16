@@ -3,11 +3,13 @@ package edu.icet.demo.controller.order;
 import com.google.gson.Gson;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import edu.icet.demo.controller.customer.CustomerController;
+import edu.icet.demo.bo.BoFactory;
+import edu.icet.demo.bo.custom.CustomerBo;
 import edu.icet.demo.controller.item.ItemController;
 import edu.icet.demo.db.DBConnection;
-import edu.icet.demo.model.*;
-import edu.icet.demo.model.tm.TableModelCart;
+import edu.icet.demo.dto.*;
+import edu.icet.demo.dto.tm.TableModelCart;
+import edu.icet.demo.util.BoType;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -26,7 +28,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -89,16 +90,18 @@ public class PlaceOrderFormController implements Initializable {
         });
     }
 
-    private void setItemData(String ItmCode) {
-        Item item = ItemController.getInstance().searchItem(ItmCode);
+    private void setItemData(String itmCode) {
+        Item item = ItemController.getInstance().searchItem(itmCode);
         txtItmDesc.setText(item.getItmDesc());
         txtPackSize.setText(item.getPackSize());
         txtUnitPrice.setText(item.getUnitPrice() + "0");
         txtQty.setText(item.getQty() + "");
     }
 
-    private void setCustomerData(String Cid) {
-        Customer customer = CustomerController.getInstance().searchCustomer(Cid);
+    private CustomerBo customerBo = BoFactory.getInstance().getBo(BoType.CUSTOMER);
+
+    private void setCustomerData(String cid) {
+        Customer customer = customerBo.searchCustomer(cid);
         txtCname.setText(customer.getCname());
         txtAdrs.setText(customer.getAdrs());
         txtSal.setText(customer.getSal() + "0");
@@ -115,7 +118,7 @@ public class PlaceOrderFormController implements Initializable {
     }
 
     private void loadCustomerIDs() {
-        ObservableList<Customer> allCustomers = CustomerController.getInstance().loadCustomers();
+        ObservableList<Customer> allCustomers = customerBo.loadCustomers();
         ObservableList<String> cusIDs = FXCollections.observableArrayList();
         allCustomers.forEach(customer -> {
             cusIDs.add(customer.getCid());

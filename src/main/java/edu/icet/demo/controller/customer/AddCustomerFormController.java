@@ -2,9 +2,12 @@ package edu.icet.demo.controller.customer;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import edu.icet.demo.model.Customer;
-import edu.icet.demo.model.tm.TableModel01;
-import edu.icet.demo.model.tm.TableModel02;
+import edu.icet.demo.bo.BoFactory;
+import edu.icet.demo.bo.custom.CustomerBo;
+import edu.icet.demo.dto.Customer;
+import edu.icet.demo.dto.tm.TableModel01;
+import edu.icet.demo.dto.tm.TableModel02;
+import edu.icet.demo.util.BoType;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -43,7 +46,6 @@ public class AddCustomerFormController implements Initializable {
     public TableColumn colPostalcode;
     public JFXButton btnPlaceOrderNav;
 
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         colCid01.setCellValueFactory(new PropertyValueFactory<>("Cid"));
@@ -72,7 +74,8 @@ public class AddCustomerFormController implements Initializable {
 
     private void loadTable01() {
         ObservableList<TableModel01> tbl01Data = FXCollections.observableArrayList();
-        ObservableList<Customer> allCustomers = CustomerController.getInstance().loadCustomers();
+        //ObservableList<Customer> allCustomers = CustomerController.getInstance().loadCustomers();
+        ObservableList<Customer> allCustomers = customerBo.loadCustomers();
         allCustomers.forEach(customer -> {
             TableModel01 table01Record = new TableModel01(
                     customer.getCid(),
@@ -88,7 +91,8 @@ public class AddCustomerFormController implements Initializable {
 
     private void loadTable02() {
         ObservableList<TableModel02> tbl02Data = FXCollections.observableArrayList();
-        ObservableList<Customer> allCustomers = CustomerController.getInstance().loadCustomers();
+        //ObservableList<Customer> allCustomers = CustomerController.getInstance().loadCustomers();
+        ObservableList<Customer> allCustomers = customerBo.loadCustomers();
         allCustomers.forEach(customer -> {
             TableModel02 table02Record = new TableModel02(
                     customer.getCid(),
@@ -114,9 +118,11 @@ public class AddCustomerFormController implements Initializable {
         txtPostalCode.setText(null);
     }
 
+    private CustomerBo customerBo = BoFactory.getInstance().getBo(BoType.CUSTOMER);
+
     public void btnAddOnAction(ActionEvent actionEvent) throws ParseException {
         Customer customer = new Customer(txtCid.getText(), cmbTitle.getValue().toString(), txtCname.getText(), dateDob.getValue(), Double.parseDouble(txtSal.getText()), txtAdrs.getText(), txtCity.getText(), txtProvince.getText(), txtPostalCode.getText());
-        boolean b = CustomerController.getInstance().addCustomer(customer);
+        boolean b = customerBo.addCustomer(customer);
         if (b) {
             loadTable01();
             loadTable02();
@@ -131,7 +137,7 @@ public class AddCustomerFormController implements Initializable {
 
     public void btnUpdateOnAction(ActionEvent actionEvent) {
         Customer customer = new Customer(txtCid.getText(), cmbTitle.getValue().toString(), txtCname.getText(), dateDob.getValue(), Double.parseDouble(txtSal.getText()), txtAdrs.getText(), txtCity.getText(), txtProvince.getText(), txtPostalCode.getText());
-        boolean b = CustomerController.getInstance().updateCustomer(customer);
+        boolean b = customerBo.updateCustomer(customer);
         if (b) {
             loadTable01();
             loadTable02();
@@ -145,7 +151,7 @@ public class AddCustomerFormController implements Initializable {
     }
 
     public void btnSearchOnAction(ActionEvent actionEvent) {
-        Customer customer = CustomerController.getInstance().searchCustomer(txtCid.getText());
+        Customer customer = customerBo.searchCustomer(txtCid.getText());
         if(customer==null){
             new Alert(Alert.AlertType.WARNING,"Customer Not Found!").show();
             txtCid.setText(null);
@@ -163,7 +169,7 @@ public class AddCustomerFormController implements Initializable {
     }
 
     public void btnDeleteOnAction(ActionEvent actionEvent) {
-            boolean b = CustomerController.getInstance().deleteCustomer(txtCid.getText());
+            boolean b = customerBo.deleteCustomer(txtCid.getText());
             if (b) {
                 loadTable01();
                 loadTable02();
@@ -175,6 +181,7 @@ public class AddCustomerFormController implements Initializable {
                 loadTable02();
             }
     }
+
 
     public void btnClearAllOnAction(ActionEvent actionEvent) {
         clearText();

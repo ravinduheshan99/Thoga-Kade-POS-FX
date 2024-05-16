@@ -1,12 +1,0 @@
-
-	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8²ØŞÀó1J$d9743598-140b-439f-b4b9-80da6f141b5c
-	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8´ØŞÀó1J$a37d9237-f5fe-418b-99ec-49588ce49084
-	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8´ØŞÀó1J$ba3443e7-95db-41e3-a941-f4705f554af1
-	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8´ØŞÀó1J$bc88a593-6fa3-4fbb-9725-423f749f5225
-	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ç´ÍÁó1J$77d9e992-7c15-49e2-aa86-94636da1d69c
-q
-java:S1121".Extract the assignment out of this expression.(¢ê„•8µØŞÀó1J$ed010133-f9b8-4586-bef1-01aefe6b7c85
-“	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úß¾Ş8ÀØŞÀó1J$349b3747-bc1f-4777-9647-de84597e3e4c
-˜	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÿÜÚùÿÿÿÿ8ÁØŞÀó1J$17c04ebe-4b08-48b2-88c3-8848275c89e0
-á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ƒğÄÊûÿÿÿÿ8ØØŞÀó1J$b7ba15c5-ee60-4278-ad93-3904b20ae27e
