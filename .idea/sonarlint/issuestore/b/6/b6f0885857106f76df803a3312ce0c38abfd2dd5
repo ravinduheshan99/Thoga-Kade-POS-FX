@@ -1,6 +1,8 @@
 
-g	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8İ¤Ûõ1
-J
-java:S1121".Extract the assignment out of this expression.(™½Şr8¢İ¤Ûõ1
-¶
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(™ ¨Œ8¯İ¤Ûõ1
+	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8İ¤Ûõ1J$777ab9c0-6058-4c20-b5eb-696a50b48666
+p
+java:S1121".Extract the assignment out of this expression.(™½Şr8¢İ¤Ûõ1J$93251af6-31ab-49a0-b58c-f12e6a47af35
+—
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(åÕİìùÿÿÿÿ8ûæ¶ƒø1J$f398140c-d2be-4307-a455-a065612b8ffe
+Ü
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(™ ¨Œ8¯İ¤Ûõ1J$12307bf7-40c1-4a4e-83ca-c5749528ddf2
