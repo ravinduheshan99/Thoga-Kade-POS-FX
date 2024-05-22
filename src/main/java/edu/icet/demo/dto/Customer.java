@@ -1,5 +1,6 @@
 package edu.icet.demo.dto;
 
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,9 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Customer {
 
-    private String Cid;
+    @Id
+    private String id;
+
     private String Title;
     private String Cname;
     private LocalDate Dob;

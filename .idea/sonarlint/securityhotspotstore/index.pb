@@ -43,16 +43,6 @@ f
 6src/main/java/edu/icet/demo/entity/CustomerEntity.java,c\7\c7cc7e92feae290ecbf70b7697f9803ad1d16b87
 ^
 .src/main/java/edu/icet/demo/util/CrudUtil.java,7\d\7d16b0d905027d01124ebcefafd142851f5c0ddb
-b
-2src/main/java/edu/icet/demo/entity/ItemEntity.java,7\5\7516e882be95ec5ec6b5765b0af5a6e2387d7168
-a
-1src/main/java/edu/icet/demo/bo/custom/ItemBo.java,1\0\101ea4c5d1122dae6eb7fa396f123cda6b372fb6
-j
-:src/main/java/edu/icet/demo/bo/custom/impl/ItemBoImpl.java,6\b\6b322161217a1797baeb386365a8ac17b980d9b6
-l
-<src/main/java/edu/icet/demo/dao/custom/impl/ItemDaoImpl.java,5\c\5c22ad41ae18dca669b6f15e12b32977bf0a28e9
-c
-3src/main/java/edu/icet/demo/dao/custom/ItemDao.java,f\f\ffdca6c072e9413a4ef775e9c464b001e8eda554
 Z
 *src/main/java/edu/icet/demo/dto/Order.java,6\d\6d1a5c276402b9f17cd70151bd49545fdb8412eb
 `
@@ -269,3 +259,9 @@ Q.idea/sonarlint/securityhotspotstore/5/0/50165a633f449329857e1351c3eabadb42fe14
 Q.idea/sonarlint/securityhotspotstore/5/0/506818cbf99a5c2c43b997a04ff12e57eb4d47d6,4\b\4be50d82c8c79e0d6bf925b353f6d495cb0fadd6
 
 Q.idea/sonarlint/securityhotspotstore/d/5/d54347b1b1453cddc2810fa924dff6cfbae65d6b,c\a\ca4a7f43591601cf37f8e88eb3f79369f1ab4a71
+T
+$src/main/resources/hibernate.cfg.xml,3\1\3176feae82bf4ff4f68f72c9d6d3b850a3110c22
+c
+3src/main/java/edu/icet/demo/util/HibernateUtil.java,9\0\90e72792edb89f0c8a4cd994c52e2d7c51d556b8
+Q
+!src/main/java/AppInitializer.java,d\8\d8724d5ff68b00b1e87def6fac487d03194f989f

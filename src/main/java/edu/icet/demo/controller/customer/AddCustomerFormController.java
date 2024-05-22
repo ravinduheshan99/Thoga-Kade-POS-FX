@@ -78,7 +78,7 @@ public class AddCustomerFormController implements Initializable {
         ObservableList<Customer> allCustomers = customerBo.loadCustomers();
         allCustomers.forEach(customer -> {
             TableModel01 table01Record = new TableModel01(
-                    customer.getCid(),
+                    customer.getId(),
                     customer.getTitle(),
                     customer.getCname(),
                     customer.getDob(),
@@ -95,7 +95,7 @@ public class AddCustomerFormController implements Initializable {
         ObservableList<Customer> allCustomers = customerBo.loadCustomers();
         allCustomers.forEach(customer -> {
             TableModel02 table02Record = new TableModel02(
-                    customer.getCid(),
+                    customer.getId(),
                     customer.getAdrs(),
                     customer.getCity(),
                     customer.getProvince(),
@@ -154,7 +154,7 @@ public class AddCustomerFormController implements Initializable {
         Customer customer = customerBo.searchCustomer(txtCid.getText());
         if(customer==null){
             new Alert(Alert.AlertType.WARNING,"Customer Not Found!").show();
-            txtCid.setText(null);
+            clearText();
         }else {
             cmbTitle.setValue(customer.getTitle());
             txtCname.setText(customer.getCname());

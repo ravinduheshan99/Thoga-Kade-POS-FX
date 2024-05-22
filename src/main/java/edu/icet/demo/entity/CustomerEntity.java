@@ -1,5 +1,7 @@
 package edu.icet.demo.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,9 +12,12 @@ import java.time.LocalDate;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 public class CustomerEntity {
 
-    private String Cid;
+    @Id
+    private String id;
+
     private String Title;
     private String Cname;
     private LocalDate Dob;
