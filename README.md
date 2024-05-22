@@ -5,6 +5,7 @@ Thoga-Kade-POS-FX is a point-of-sale (POS) system developed using Java, JavaFX, 
 ## Features
 
 - **Add Customer Form:** Allows users to perform CRUD (Create, Read, Update, Delete) operations on customer data.
+  
 - **Place Order Form:** Enables users to place orders for items.
 - **Database Interaction:** Utilizes MySQL for database management, with Hibernate for streamlined CRUD operations in the Add Customer Form.
 - **JavaFX:** Utilizes JavaFX for building the user interface.
